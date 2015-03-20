@@ -383,6 +383,7 @@ static CGFloat kTextViewToSuperviewHeightDelta;
         [_textView setScrollIndicatorInsets:UIEdgeInsetsMake(8.0f, 0.0f, 8.0f, 0.5f)];
         [_textView setBackgroundColor:[UIColor clearColor]];
         [_textView setFont:[UIFont systemFontOfSize:kFontSize]];
+        [[_textView layoutManager] setAllowsNonContiguousLayout:NO];
         [self setupDelegateChainForTextView];
     }
 
