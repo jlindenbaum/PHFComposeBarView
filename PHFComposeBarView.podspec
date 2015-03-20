@@ -18,7 +18,7 @@ be customized.
   s.homepage       = 'https://github.com/jlindenbaum/PHFComposeBarView'
   s.license        = { :type => 'MIT', :file => 'LICENSE' }
   s.author         = { 'Philipe Fatio' => 'me@phili.pe' }
-  s.source         = { :git => 'https://github.com/jlindenbaum/PHFComposeBarView.git', :tag => 'v2.0.1' }
+  s.source         = { :git => 'https://github.com/jlindenbaum/PHFComposeBarView.git', :tag => 'v2.0.2' }
   s.source_files   = 'Classes/*'
   s.preserve_paths = 'LICENSE', 'README.md'
   s.requires_arc   = true
